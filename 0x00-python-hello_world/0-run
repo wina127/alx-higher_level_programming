@@ -1,2 +1,2 @@
 #!/bin/bash
-phython21 $PYFILE
+phython3 $PYFILE
