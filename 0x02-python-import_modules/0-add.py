@@ -1,8 +1,7 @@
 #!/user/bin/python3
-
+"""Import from add.py"""
+if _name_ == "_main_":
+    from add_0 import add
     a = 1
     b = 2
-    def add(a, b):
-        return a + b
-    result = add(a, b)
-    print(f"{a} + {b} = {result}")
+    print("{} + {} = {}".format(a, b, add(a, b)))
