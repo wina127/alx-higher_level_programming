@@ -1,7 +1,3 @@
-#include <python.h>
-#include <object.h>
-#include <listobject.h>
-
 void print_python_list_info(pyobject *p)
 {
 	long int size = pylist_size(p);
