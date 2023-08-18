@@ -14,4 +14,5 @@ if number < 0:
         message = "is 0"
     else:
         message = "is less than 6 and not 0"
-    print(f"last digit of {number:d} is {last_digit:d} and is", message)
+    print(f"last digit of {number:d} is {last_digit:d} and is", {
+        message})
