@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-# 0-square.py by UDO INNOCENT
+# 0-square.py 
 """Defines a square """
 
-class square:
+class Square:
     """Represents a square"""
 
     def __int__(self, size):
