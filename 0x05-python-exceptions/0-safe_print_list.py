@@ -4,15 +4,15 @@ def safe_print_list(my_list=[], x=0):
 
     """print x elements of a list"""
 
-    total = 0
+    ret = 0
 
     for i in range(x):
 
         try:
 
-            print(f"{my_list[i]}", end="")
+            print("{}".format{my_list[i]}, end="")
 
-            total += 1
+            ret += 1
 
         except IndexError:
 
@@ -20,4 +20,4 @@ def safe_print_list(my_list=[], x=0):
 
         print("")
 
-        return(total)
+        return(ret)
