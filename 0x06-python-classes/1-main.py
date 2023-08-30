@@ -2,15 +2,15 @@
 Square = __import__('1-square').Square
 
 my_square = Square(3)
-print(type(my_square))
-print(my_square.__dict__)
+print(type(1-square))
+print(1-square.__dict__)
 
 try:
-    print(my_square.size)
+    print(1-square.size)
 except Exception as e:
     print(e)
 
 try:
-    print(my_square.__size)
+    print(1-square.__size)
 except Exception as e:
     print(e)
